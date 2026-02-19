@@ -1,0 +1,47 @@
+{
+  "name": "ai-dont-care-about-cookies",
+  "version": "1.0.0",
+  "description": "Block cookie consent dialogs in Playwright - built for AI agents and web automation. Uses 15,000+ rules from 'I Still Don't Care About Cookies'.",
+  "main": "js/index.js",
+  "types": "js/index.d.ts",
+  "scripts": {
+    "test": "node js/test.js"
+  },
+  "keywords": [
+    "playwright",
+    "cookies",
+    "consent",
+    "gdpr",
+    "cookie-banner",
+    "cookie-dialog",
+    "ai-agent",
+    "web-scraping",
+    "automation",
+    "browser-automation",
+    "i-dont-care-about-cookies"
+  ],
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fynn-grab/AI-Dont-Care-About-Cookies.git"
+  },
+  "homepage": "https://github.com/fynn-grab/AI-Dont-Care-About-Cookies#readme",
+  "bugs": {
+    "url": "https://github.com/fynn-grab/AI-Dont-Care-About-Cookies/issues"
+  },
+  "peerDependencies": {
+    "playwright": "^1.58.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "js/index.js",
+    "js/index.d.ts",
+    "js/domain-resolver.js",
+    "js/rules-data.js",
+    "data/**/*",
+    "LICENSE",
+    "README.md"
+  ]
+}
