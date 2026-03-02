@@ -1,6 +1,6 @@
 {
   "name": "ai-dont-care-about-cookies",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Block cookie consent dialogs in Playwright - built for AI agents and web automation. Uses 15,000+ rules from 'I Still Don't Care About Cookies'.",
   "main": "js/index.js",
   "types": "js/index.d.ts",

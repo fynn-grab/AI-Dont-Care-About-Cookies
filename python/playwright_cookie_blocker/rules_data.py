@@ -26166,6 +26166,10 @@ rules = {
     'lufthansagroup.careers': {
         'j': '5',
     },
+    'strategyand.pwc.de': {
+        's': '[role="dialog"][key-role="gdpr-regionRole"]{display:none !important}',
+        'j': '5',
+    },
     'z-immobilien.at': {
         'j': '5',
     },

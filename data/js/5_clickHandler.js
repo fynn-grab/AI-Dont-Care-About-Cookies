@@ -5070,6 +5070,10 @@ function getSelector(host) {
       return _sl(
         '.modal[style*="block"] .btn[data-hook="cc-ccc-btn-confirm-selection"], .modal.show .btn-confirm-selected'
       );
+    case "strategyand.pwc.de":
+      return _sl(
+        '[role="dialog"][key-role="gdpr-regionRole"] button.primary-button'
+      );
     case "mein-wohndesign24.de":
       return _sl(
         ".v-dialog__content--active .ui-cookie-consent button.primary"
